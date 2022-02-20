@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    display: block;
+}
+
+p {
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+
+
+
+#landing {
+    background-color: ivory;
+    color: #212121;
+    padding: 20rem 5rem;
+}
+
+#about {
+    background-color: #212121;
+    color: ivory;
+    padding: 3rem 5rem;
+}
+
+#projects {
+    background-color: ivory;
+    color: #212121;
+    padding: 3rem 5rem;
+}
+
+.projectDiv {
+    display: inline-block;
+    text-align: center;
+    height: 17rem;
+    width: 23rem;
+    margin: 2rem;
+    padding: 1rem;
+    color: ivory;
+    background-color: #212121;
+    
+}
+
+.projectImg{
+    width: 15rem;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#contact {
+    background-color: #212121;
+    color: ivory;  
+    padding: 3rem 5rem;
+    text-align: center;
+}
+.contactLinks{
+    margin: auto 1rem;
+}
+
+footer {
+    background-color: ivory;
+    color: #212121;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+/* navbar */
+
+ul span {
+    font-size: 1.5rem;
+}
+
+nav div {
+    display: block;
+    position: fixed;
+    right: 3rem;
+    top: 4rem;
+    width: auto;
+    padding: .25rem;
+    color: #212121;
+    border: solid #212121 4px;
+    background-color: ivory;
+}
+
+
+.navList {
+    list-style-type: none;
+    text-align: center;
+    padding: 0rem;
+    text-transform: uppercase;
+}
+
+.navList li {
+    padding: .5rem .5rem;
+}
+
+.navLinks:link {
+    color: #212121;
+    text-decoration: none;
+  }
+  
+.navLinks:visited {
+    color: #212121;
+    text-decoration: none;
+  }
+
+.navLinks:hover {
+    color: #212121;
+    text-decoration: underline;
+    list-style-type: "{}";
+  }
+  
+.navLinks:active {
+    color: blue;
+    text-decoration: underline;
+  }
+
+
+  /* Footer */
+.contactLinks:link {
+    color: ivory;
+    text-decoration: none;
+  }
+  
+  .contactLinks:visited {
+    color: ivory;
+    text-decoration: none; 
+  }
+  
+  .contactLinks:hover {
+    color: ivory;
+    text-decoration: underline;
+  }
+  
+  .contactLinks:active {
+    color: blue;
+    text-decoration: underline;
+  }
