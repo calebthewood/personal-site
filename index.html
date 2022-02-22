@@ -15,128 +15,147 @@
 </head>
 
 <body>
-    <!--navigation
-    nav to each section-->
+    <!--navigation-->
     <nav>
         <div class="navbar">
-            <ul class="navList"><b><span>{</span>menu<span>}</span></b>
-                <li><a class="navLinks" href="#landing">Home</a></li>
-                <li><a class="navLinks" href="#about">About</a></li>
-                <li><a class="navLinks" href="#projects">Projects</a></li>
-                <li><a class="navLinks" href="#contact">Contact</a></li>
-                <li><a class="navLinks" href="/public/resume.pdf">Résumé</a></li>
-            </ul>
+            <p class="navList"><b><span>{</span> menu <span>}</span></b></p>
+            <div class="navLinks">
+                <a href="#landing">to top</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="public/resume.pdf">Résumé</a>
+            </div>
         </div>
     </nav>
 
-    <!--landing page: 
-    1) name
-    3) simple, clean asthetic-->
+    <!--landing page-->
 
     <section id="landing">
         <header>
-            <h1>Welcome,</h1>
+            <h1>Welcome</h1>
             <h2>I'm Caleb Wood,</h2>
-            <h2>Software Engineer</h2>
+            <h2>Software Engineer.</h2>
         </header>
     </section>
 
-    <!--about
-    1) education?
-    2) hobbies
-    3) skills/software tools-->
+    <!--about-->
 
     <section id="about">
-        <header>
-            <h1>A little about myself</h1>
-        </header>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur.
-        </p>
+        <div class="flex-container">
 
+            <header class="about-flex-header">
+                <h1>A little about myself</h1>
+            </header>
+
+            <div class="about-flex-image">
+                <img id="selfie" src="public/images/selfie.jpg" alt="Caleb's Selfie">
+            </div>
+
+            <aside>
+                <ul><b>"About" TL;DR</b>
+                    <li>2022 - Rithm School, 16 week coding immersive.</li>
+                    <li>2021 - Regular practice of full stack development</li>
+                    <li>2015-21 - Primarily worked in banking, <a href="public/resume.pdf">see Resume</a></li>
+                    <li>2015 - University of Hawaii, B.A. Economics </li>
+                </ul>
+            </aside>
+
+            <div class="about-flex-details">
+                <ul>
+                    <li><b>Name: </b> Caleb Wood</li>
+                    <li><b>Location: </b> San Francisco</li>
+                    <p>
+                        <a class="contactLinks" href="https://www.linkedin.com/in/caleb-wood-440b37168/">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                        <a class="contactLinks" href="https://github.com/calebthewood">
+                            <i class="fa-brands fa-github"></i></a>
+                        <a class="contactLinks" href="https://www.instagram.com/calebthewood/?hl=en">
+                            <i class="fa-brands fa-instagram"></i></a>
+                    </p>
+
+                </ul>
+            </div>
+
+            <div class="about-flex-content">
+                <p>
+                    Today I am a software engineer focusing on full-stack web development. I thrive on
+                    bringing ideas to life. From initial concept, through the structuring and planning phase,
+                    all to execution and deployment.
+                </p>
+                <p>
+                    I'm currently located in San Francisco. I recently transplanted from Honolulu, where I spent the
+                    last 8 years. I graduated with a B.A. in Economcs in 2015, and worked primarily
+                    in banking, but also as clerk in a small law-firm and later for the State Legislature.
+                    View my <a href="public/resume.pdf"></a>resume here</a>.
+                </p>
+                <p>
+                    When I'm not coding up <a href="#projects">programs</a> for mundane problems I like
+                    exploring in nature, baking my way towards the perfect baguette,
+                    and, as an avid learner, of course, reading. Fiction, non-fiction,
+                    blogs, articles, I read it all.
+                </p>
+            </div>
+        </div>
         <div>
-            <h3>Rithm School: 16 weeks of full-time, immersive coding.</h3>
-            <ul>
-                <li>Javascript ES6</li>
-                <li>OO Programming</li>
-                <li>HTML & CSS</li>
-                <li>AJAX</li>
-                <li>Pair Programming</li>
-                <li>Python</li>
-                <li>Flask</li>
-                <li>Postgres</li>
-                <li>SQLAlchemy</li>
-                <li>WTForms</li>
-                <li>Database Design & Architecture</li>
-                <li>Node & Express</li>
-                <li>PostgreSQL</li>
-                <li>React</li>
-                <li>AWS</li>
-                <li>Typescript</li>
-                <li>Company Projects</li>
-            </ul>
+
+            <div class="flex-container">
+                <h1>Skills</h1>
+                <p>
+                    I'm comfortable working across a full tech stack, and am eager to
+                    add new skills when needed. So far, I work comfortably with the following:
+                </p>
+                <div class="flex-item">
+                    <h4 class="skills-title">Languages:</h4>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>HTML & CSS</li>
+                        <li>Python</li>
+                        <li>Typescript</li>
+                    </ul>
+                </div>
+                <div class="flex-item">
+                    <h4 class="skills-title"> Front End Tech:</h4>
+                    <ul>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                        <li>JQuery</li>
+                        <li>EJS</li>
+                    </ul>
+                </div>
+                <div class="flex-item">
+                    <h4 class="skills-title">Back End Tech:</h4>
+                    <ul>
+                        <li>AWS</li>
+                        <li>AJAX</li>
+                        <li>Node</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+                <div class="flex-item">
+                    <h4 class="skills-title">Database Tech:</h4>
+                    <ul>
+                        <li>SQL</li>
+                        <li>POSTGres</li>
+                        <li>MongoDB</li>
+                        <li>SQL Alchemy</li>
+                    </ul>
+                </div>
+
+                <div class="flex-concepts">
+                    <h4 class="skills-title">Emphasis on Best Practices in:</h4>
+                    <ul class="concept-list">
+                        <li>RESTful API design</li>
+                        <li>Object-oriented Programming</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>GIT and Version Management</li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
 
-        <div>
-            <h3>App Brewery: The Complete 2021 Web Development Bootcamp</h3>
-            <p>Build projects in</p>
-            <ul>
-                <li>Javascript ES6</li>
-                <li>Bootstrap</li>
-                <li>MongoDB</li>
-                <li>Mongoose</li>
-                <li>React</li>
-                <li>Express</li>
-                <li>DOM Maninpulation</li>
-                <li>JQuery</li>
-                <li>RESTful API</li>
-                <li>Git & Github</li>
-                <li>EJS</li>
-                <li>SQL</li>
-                <li>React</li>
-            </ul>
-        </div>
 
-        <div>
-            <h3>University of Hawaii, Economics BA</h3>
-            <ul>
-                <li>30 Economics</li>
-                <li>13 Mathematics</li>
-                <li>6 Statistics</li>
-                <li>18 Sciences</li>
-                <li>12 French</li>
-                <li>2 Spreadsheets</li>
-            </ul>
-        </div>
-
-        <div>
-            I wroked in several fields throughout my twenties. Most notably,
-            I worked in the banking sector for about 5 years. I also worked as
-            a legal clerk in a private law firm, and later for the State Legislature.
-        </div>
-
-        <div>Hobbies Include: coding up programs for mundane problems,
-            exploring in nature, baking my way towards the perfect baguette,
-            and reading</div>
-
-        <div>
-            <h3>Skills, section may be redundant.</h3>
-            <ul>
-                <li>Javascript</li>
-                <li>html5</li>
-                <li>css</li>
-                <li>node</li>
-                <li>express</li>
-                <li>react/next</li>
-                <li>git</li>
-                <li>MongoDB</li>
-            </ul>
-        </div>
     </section>
 
     <!--projects
@@ -147,7 +166,7 @@
     <section id="projects">
 
         <header>
-            <h2>Most Recent Projects:</h2>
+            <h2>Most Recent Projects</h2>
             <p>Take a look at some things I've built recently.</p>
         </header>
 
@@ -155,19 +174,14 @@
             <div class="projectDiv">
                 <p><em>whittle,</em> a wordle assistant.</p>
                 <a href="https://whittle-words.herokuapp.com/">
-                    <img 
-                        class="projectImg" 
-                        src="public/images/whittle.jpeg" 
-                        alt="whittle thumbnail">
+                    <img class="projectImg" src="public/images/whittle.jpeg" alt="whittle thumbnail">
                 </a>
             </div>
+
             <div class="projectDiv">
-                <p><em>Yeah, no.</em>  A response generator</p>
+                <p><em>Yeah, no.</em> A response generator</p>
                 <a href="https://yeah-no.herokuapp.com/">
-                    <img 
-                    class="projectImg" 
-                    src="/public/images/yeah-no.jpeg" 
-                    alt="yeah, no thumbnail">
+                    <img class="projectImg" src="public/images/yeah-no.jpeg" alt="yeah, no thumbnail">
                 </a>
 
             </div>
@@ -175,14 +189,15 @@
 
     </section>
 
-    <!--contact
-    1) linkdin
-    2) github
-    3) ig-->
+    <!--contact-->
 
     <section id="contact">
         <p>
-            <a class="contactLinks" href="calebwood.cs@gmail.com">
+            Please reach out via email with any inquiries or collaberation ideas.<br>
+            <p><a class="contactLinks" href="https://www.instagram.com/calebthewood/?hl=en">calebwood.cs@gmail.com</a></p>
+        </p>
+        <p>
+            <a class="contactLinks" href="mailto:calebwood.cs@gmail.com">
                 <i class="fa-solid fa-envelope"></i></a>
             <a class="contactLinks" href="https://www.linkedin.com/in/caleb-wood-440b37168/">
                 <i class="fa-brands fa-linkedin"></i></a>
@@ -193,8 +208,7 @@
         </p>
     </section>
 
-
-    <footer>&copy; 2022 Caleb Wood. All rights reserved</footer>
+    <footer>&copy; 2022 Caleb Wood. All rights reserved.</footer>
 </body>
 
 </html>
