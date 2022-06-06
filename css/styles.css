@@ -3,13 +3,13 @@
 }
 
 html {
-    /* font-size: 100%; */
+    font-size: 100%;
     display: block;
 }
-/*
+
 p {
     font-size: 1rem;
-} */
+}
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -20,7 +20,7 @@ body {
 #landing {
     background-color: ivory;
     color: #212121;
-    padding: 20rem 5rem;
+    padding: 20rem 2rem;
 }
 
 /* new css */
@@ -252,7 +252,8 @@ aside ul {
 #contact {
     background-color: #212121;
     color: ivory;
-    padding: 2rem 5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     margin-bottom: 1rem;
     text-align: center;
 }
