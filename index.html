@@ -10,21 +10,24 @@
 
     <script src="https://kit.fontawesome.com/bbb79bf9bf.js" crossorigin="anonymous"></script>
 
-    <title>Caleb Wood</title>
+    <title>Caleb Wood Dev</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <!--navigation-->
     <nav>
-        <div class="navbar">
+        <div class="navbarr">
             <p class="navList"><b><span>{</span> menu <span>}</span></b></p>
             <div class="navLinks">
                 <a href="#landing">to top</a>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
-                <a href="public/resume.pdf">Résumé</a>
+                <a href="/public/Caleb_Wood_Resume.pdf">Résumé</a>
             </div>
         </div>
     </nav>
@@ -32,169 +35,242 @@
     <!--landing page-->
 
     <section id="landing">
-        <header>
-            <h1>Welcome</h1>
-            <h2>I'm Caleb Wood,</h2>
-            <h2>Software Engineer.</h2>
-        </header>
+        <div class="container">
+            <header>
+                <h1>Welcome</h1>
+                <h2>I'm Caleb Wood,</h2>
+                <h2>Software Engineer.</h2>
+            </header>
+        </div>
     </section>
 
     <!--about-->
 
     <section id="about">
-        <div class="flex-container">
+        <div class="container">
 
-            <header class="about-flex-header">
-                <h1>A little about myself</h1>
-            </header>
-
-            <div class="about-flex-image">
-                <img id="selfie" src="public/images/selfie.jpg" alt="Caleb's Selfie">
+            <div class="row">
+                <div class="col">
+                    <header>
+                        <h1>About</h1>
+                    </header>
+                </div>
             </div>
 
-            <aside>
-                <ul><b>"About" TL;DR</b>
-                    <li>2022 - Rithm School, 16 week coding immersive</li>
-                    <li>2021 - Regular practice of full stack development</li>
-                    <li>2015-21 - Primarily worked in banking, <a href="public/resume.pdf">see Resume</a></li>
-                    <li>2015 - University of Hawaii, B.A. Economics </li>
-                </ul>
-            </aside>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-md-4 col-sm-12">
+                    <div class="card bg-transparent about-card my-5" style="min-width: 15rem;">
+                        <img class="card-img-top" src="public/images/selfie.jpg" alt="Caleb's Selfie">
+                        <div class="card-body text-center">
+                            <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
 
-            <div class="about-flex-details">
-                <ul>
-                    <li><b>Name: </b> Caleb Wood</li>
-                    <li><b>Location: </b> San Francisco</li>
+                            <a class="contactLinks" href="https://www.linkedin.com/in/caleb-wood-440b37168/">
+                                <i class="fa-brands fa-linkedin"></i></a>
+                            <a class="contactLinks" href="https://github.com/calebthewood">
+                                <i class="fa-brands fa-github"></i></a>
+                            <a class="contactLinks" href="https://www.instagram.com/calebthewood/?hl=en">
+                                <i class="fa-brands fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-sm-12">
+                    <div class="card bg-transparent about-card my-5 p-4" style="min-width: 15rem;">
+                        <h5 class="card-title">A little about myself</h5>
+                        <ul class="list-group list-group-flush">
+                            <br>
+                            <li class="list-group-item bg-transparent">
+                                I am a software engineer focusing on full-stack web development. I've been a hobbyist
+                                since highschool, when a friend and I first got Linux Ubuntu running on an old
+                                laptop. Since last year I've been coding and building things for the web full-time.
+                                See <a href="/public/Caleb_Wood_Resume.pdf">resume</a> for professional and personal
+                                experience.
+                            </li>
+                            <br>
+                            <li class="list-group-item bg-transparent">
+                                When I'm not coding up <a href="#projects">programs</a> for mundane problems I like
+                                exploring in nature, baking my way towards the perfect baguette,
+                                and, as an avid learner, of course, reading. Fiction, non-fiction,
+                                blogs, articles, docs I read it all!
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col">
+                    <header>
+                        <h1>Skills - Full Stack</h1>
+                    </header>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-11">
                     <p>
-                        <a class="contactLinks" href="https://www.linkedin.com/in/caleb-wood-440b37168/">
-                            <i class="fa-brands fa-linkedin"></i></a>
-                        <a class="contactLinks" href="https://github.com/calebthewood">
-                            <i class="fa-brands fa-github"></i></a>
-                        <a class="contactLinks" href="https://www.instagram.com/calebthewood/?hl=en">
-                            <i class="fa-brands fa-instagram"></i></a>
+                        I've worked extensively with the following, and am eager to
+                        add new skills when needed:
                     </p>
-
-                </ul>
+                </div>
             </div>
 
-            <div class="about-flex-content">
-                <p>
-                    Today I am a software engineer focusing on full-stack web development. I thrive on
-                    bringing ideas to life. From initial concept, through the structuring and planning phase,
-                    all to execution and deployment.
-                </p>
-                <p>
-                    I'm currently located in San Francisco. I recently transplanted from Honolulu, where I spent the
-                    last 8 years. I graduated with a B.A. in Economcs in 2015, and worked primarily
-                    in banking, but also as clerk in a small law-firm and later for the State Legislature.
-                    View my <a href="public/resume.pdf"></a>resume here</a>.
-                </p>
-                <p>
-                    When I'm not coding up <a href="#projects">programs</a> for mundane problems I like
-                    exploring in nature, baking my way towards the perfect baguette,
-                    and, as an avid learner, of course, reading. Fiction, non-fiction,
-                    blogs, articles, I read it all.
-                </p>
-            </div>
-        </div>
-        <div>
-
-            <div class="flex-container">
-                <h1>Skills</h1>
-                <p>
-                    I'm comfortable working across a full tech stack, and am eager to
-                    add new skills when needed. So far, I work comfortably with the following:
-                </p>
-                <div class="flex-item">
-                    <h4 class="skills-title">Languages:</h4>
-                    <ul>
-                        <li>Javascript</li>
-                        <li>HTML & CSS</li>
-                        <li>Python</li>
-                        <li>Typescript</li>
-                    </ul>
-                </div>
-                <div class="flex-item">
-                    <h4 class="skills-title"> Front End Tech:</h4>
-                    <ul>
-                        <li>React</li>
-                        <li>Bootstrap</li>
-                        <li>JQuery</li>
-                        <li>EJS</li>
-                    </ul>
-                </div>
-                <div class="flex-item">
-                    <h4 class="skills-title">Back End Tech:</h4>
-                    <ul>
-                        <li>AWS</li>
-                        <li>AJAX</li>
-                        <li>Node</li>
-                        <li>Flask</li>
-                    </ul>
-                </div>
-                <div class="flex-item">
-                    <h4 class="skills-title">Database Tech:</h4>
-                    <ul>
-                        <li>SQL</li>
-                        <li>POSTGres</li>
-                        <li>MongoDB</li>
-                        <li>SQL Alchemy</li>
-                    </ul>
+            <div class="row d-flex justify-content-evenly">
+                <div class="card bg-transparent about-card col-md-3 col-sm-6 m-4" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Languages:</h5>
+                        <ul class="list-group list-group-flush bg-transparent">
+                            <li class="list-group-item bg-transparent">JavaScript</li>
+                            <li class="list-group-item bg-transparent">HTML & CSS</li>
+                            <li class="list-group-item bg-transparent">Python</li>
+                            <li class="list-group-item bg-transparent">TypeScript</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="flex-concepts">
-                    <h4 class="skills-title">Emphasis on Best Practices in:</h4>
-                    <ul class="concept-list">
-                        <li>RESTful API design</li>
-                        <li>Object-oriented Programming</li>
-                        <li>Data Structures & Algorithms</li>
-                        <li>GIT and Version Management</li>
-                    </ul>
+
+                <div class="card bg-transparent about-card col-md-3 col-sm-6 m-4" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title"> Front End Tools:</h5>
+                        <ul class="list-group list-group-flush bg-transparent">
+                            <li class="list-group-item bg-transparent">React</li>
+                            <li class="list-group-item bg-transparent">Bootstrap</li>
+                            <li class="list-group-item bg-transparent">AJAX</li>
+                            <li class="list-group-item bg-transparent">Jinja</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card bg-transparent about-card col-md-3 col-sm-6 m-4" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Back End Tools:</h5>
+                        <ul class="list-group list-group-flush bg-transparent">
+                            <li class="list-group-item bg-transparent">AWS S3</li>
+                            <li class="list-group-item bg-transparent">OAuth</li>
+                            <li class="list-group-item bg-transparent">Node</li>
+                            <li class="list-group-item bg-transparent">Flask</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card bg-transparent about-card col-md-3 col-sm-6 m-4" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Database Tools:</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent">SQL</li>
+                            <li class="list-group-item bg-transparent">PostgreSQL</li>
+                            <li class="list-group-item bg-transparent">MongoDB</li>
+                            <li class="list-group-item bg-transparent">SQLAlchemy</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card bg-transparent about-card col-8 m-4" style="width: 23rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Dev. Principals:</h5>
+                        <ul class="list-group list-group-flush bg-transparent">
+                            <li class="list-group-item bg-transparent">Test-Driven Development</li>
+                            <li class="list-group-item bg-transparent">RESTful API design</li>
+                            <li class="list-group-item bg-transparent">Object-Oriented Programming</li>
+                            <li class="list-group-item bg-transparent">Version Control with Git</li>
+                        </ul>
+                    </div>
                 </div>
 
             </div>
         </div>
-
-
     </section>
 
-    <!--projects
-    1) whittle
-    2) yeah no
-    3) auden?-->
 
     <section id="projects">
+        <div class="container">
 
-        <header>
-            <h2>Most Recent Projects</h2>
-            <p>Take a look at some things I've built recently.</p>
-        </header>
+            <div class="row mt-5 mb-2">
+                <div class="col">
+                    <header>
+                        <h1>Projects</h1>
+                    </header>
+                </div>
 
-        <div>
-            <div class="projectDiv">
-                <p><em>whittle,</em> a wordle assistant.</p>
-                <a href="https://whittle-words.herokuapp.com/">
-                    <img class="projectImg" src="public/images/whittle.jpeg" alt="whittle thumbnail">
-                </a>
             </div>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-10">
+                    <p><b>Click</b> an image below to visit a <b>live demo</b></p>
+                </div>
+            </div>
+            <div class="row d-flex mb-5 justify-content-evenly">
+                <div class="project col-10 p-2 border-dark">
+                    <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item card active border-dark">
+                                <a href="http://react-jobly-1.surge.sh/">
+                                    <img src="public/images/jobly.png" class="card-img-top d-block w-100 border-dark"
+                                        alt="...">
+                                </a>
+                                <div class="card-body text-center d-md-block project-text">
+                                    <h5>Jobly - Full stack mock job board site & API</h5>
+                                    <p>React | ReactRouter | Node | Express | PostgreSQL</p>
+                                </div>
+                            </div>
 
-            <div class="projectDiv">
-                <p><em>Yeah, no.</em> A response generator</p>
-                <a href="https://yeah-no.herokuapp.com/">
-                    <img class="projectImg" src="public/images/yeah-no.jpeg" alt="yeah, no thumbnail">
-                </a>
+                            <div class="carousel-item card border-dark">
+                                <a href="https://r-warble.herokuapp.com/">
+                                    <img src="public/images/warbler.png" class="card-img-top d-block w-100 border-dark"
+                                        alt="...">
+                                </a>
+                                <div class="card-body text-center d-md-block project-text">
+                                    <h5>Warbler - Full stack twitter clone</h5>
+                                    <p>Python | Flask | Jinja | User Authentication | PostgreSQL</p>
+                                </div>
+                            </div>
 
+                            <div class="carousel-item card border-dark">
+                                <a href="https://whittle-words.herokuapp.com/">
+                                    <img src="public/images/whittle.png" class="card-img-top d-block w-100 border-dark"
+                                        alt="...">
+                                </a>
+                                <div class="card-body text-center d-md-block project-text">
+                                    <h5>whittle - A Wordle assist application</h5>
+                                    <p>JavaScript | HTML | CSS Grid</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
 
     <!--contact-->
 
     <section id="contact">
         <p>
-            Please reach out via email with any inquiries or collaberation ideas.<br>
-            <p><a class="contactLinks" href="https://www.instagram.com/calebthewood/?hl=en">calebwood.cs@gmail.com</a></p>
+            Please reach out via email with any questions.<br>
+        <p><a class="contactLinks" href="https://www.instagram.com/calebthewood/?hl=en">calebwood.cs@gmail.com</a></p>
         </p>
         <p>
             <a class="contactLinks" href="mailto:calebwood.cs@gmail.com">
@@ -209,6 +285,10 @@
     </section>
 
     <footer>&copy; 2022 Caleb Wood. All rights reserved.</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
 </body>
 
 </html>

@@ -3,16 +3,18 @@
 }
 
 html {
-    font-size: 100%;
+    /* font-size: 100%; */
     display: block;
 }
-
+/*
 p {
     font-size: 1rem;
-}
+} */
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: ivory;
+
 }
 
 #landing {
@@ -20,6 +22,38 @@ body {
     color: #212121;
     padding: 20rem 5rem;
 }
+
+/* new css */
+
+.list-group-item {
+    color: ivory;
+
+}
+
+.about-card {
+    border: solid 1px ivory;
+    box-shadow: 4px 4px 5px 0px black;
+}
+
+.project {
+    background-color: #212121;
+    box-shadow: 4px 4px 5px 0px gray;
+}
+
+.project-text {
+    background-color: #212121;
+    color: ivory;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* about */
 
@@ -30,32 +64,17 @@ body {
 }
 
 .about-flex-image {
-    display: flex;
-    flex-flow: row nowrap;
-    min-width: 12rem;
-    align-items: center;
     border: 2px solid ivory;
     box-shadow: 4px 4px 5px 0px black;
 }
 
 .about-flex-details {
-    flex: 13%;
     color: ivory;
     background-color: #212121;
 }
 
 .about-flex-details ul {
     list-style: none;
-    margin-bottom: 2rem;
-}
-
-.about-flex-details p {
-    margin-top: 3rem;
-}
-
-.about-flex-content {
-    flex: 100%;
-    margin-top: 2rem;
 }
 
 .navbar:hover .navLinks {
@@ -70,22 +89,22 @@ body {
 #about a:link {
     color: ivory;
     text-decoration: none;
-  }
-  
+}
+
 #about a:visited {
     color: ivory;
     text-decoration: none;
-  }
+}
 
 #about a:hover {
     color: ivory;
     text-decoration: underline;
-  }
-  
+}
+
 #about a:active {
     color: blue;
     text-decoration: underline;
-  }
+}
 
 #selfie {
     width: 12rem;
@@ -94,12 +113,9 @@ body {
 /* skills */
 
 aside {
-    flex: 40%;
-    width: fit-content;
     height: 12rem;
     line-height: 1.5rem;
     margin-left: 1rem;
-    float: right;
     font-style: italic;
     color: ivory;
     background-color: #212121;
@@ -109,76 +125,39 @@ aside {
 }
 
 aside ul {
- margin: 1rem;
- padding: .25rem;
- list-style: none;
+    list-style: none;
 }
 
 .about-flex-header {
-    flex: 100%;
     margin: auto;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 85%;
-    margin: 2rem auto 2rem auto;
-}
-
-.flex-item h4 {
-    margin: 0;
-}
-
 .flex-item {
-    padding: 1rem;
-    margin: 1rem;
-    flex: 20%;
     min-width: 11rem;
     border: solid 2px ivory;
     box-shadow: 4px 4px 5px 0px black;
 }
 
 .flex-concepts {
-    flex: 100%;
-    padding: 1rem;
-    margin: 1rem;
     border: solid 2px ivory;
     box-shadow: 4px 4px 5px 0px black;
-}
-
-.flex-item ul {
-    padding: 1rem;
-    margin: 0;
-}
-
-li{
-    padding: .1rem;
 }
 
 .concept-list {
     columns: auto 2;
 }
 
-.education {
-    width: 85%;
-    margin: auto;
-}
-
-.education ul {
-    columns: auto 2;
-}
 
 /* projects */
 
-#projects {
+/* #projects {
     display: block;
     width: 85%;
     margin: auto;
     background-color: ivory;
     color: #212121;
     padding: 3rem 5rem;
-}
+} */
 
 .projectDiv {
     display: inline-block;
@@ -192,7 +171,7 @@ li{
     box-shadow: 4px 4px 5px 0px gray;
 }
 
-.projectImg{
+.projectImg {
     width: 15rem;
     border-radius: 5px;
     margin: auto;
@@ -212,8 +191,10 @@ li{
     font-size: 1.5rem;
 }
 
-.navbar {
-    display: block;
+.navbarr {
+    z-index: 10;
+    cursor: pointer;
+    /* display: block; */
     position: fixed;
     right: 3rem;
     top: 3rem;
@@ -234,7 +215,7 @@ li{
 
 }
 
-.navbar:hover .navLinks {
+.navbarr:hover .navLinks {
     display: block;
 }
 
@@ -248,35 +229,35 @@ li{
 .navLinks a:link {
     color: #212121;
     text-decoration: none;
-  }
-  
+}
+
 .navLinks a:visited {
     color: #212121;
     text-decoration: none;
-  }
+}
 
 .navLinks a:hover {
     color: #212121;
     text-decoration: underline;
-  }
-  
+}
+
 .navLinks a:active {
     color: blue;
     text-decoration: underline;
-  }
+}
 
 
-  /* Footer */
+/* Footer */
 
 #contact {
     background-color: #212121;
-    color: ivory;  
+    color: ivory;
     padding: 2rem 5rem;
     margin-bottom: 1rem;
     text-align: center;
 }
 
-.contactLinks{
+.contactLinks {
     font-size: 1.5rem;
     margin: 0 1rem;
 }
@@ -291,19 +272,19 @@ footer {
 .contactLinks:link {
     color: ivory;
     text-decoration: none;
-  }
-  
-  .contactLinks:visited {
+}
+
+.contactLinks:visited {
     color: ivory;
-    text-decoration: none; 
-  }
-  
-  .contactLinks:hover {
+    text-decoration: none;
+}
+
+.contactLinks:hover {
     color: ivory;
     text-shadow: 0 0 5px ivory;
-  }
-  
-  .contactLinks:active {
+}
+
+.contactLinks:active {
     color: blue;
     text-decoration: underline;
-  }
+}
