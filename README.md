@@ -80,7 +80,7 @@ Roadmap to v2.0
 <!-- CONTACT -->
 ## Contact
 
-CalebW - [@calebthewood](https://twitter.com/calebthewood) - calebwood.cs@gmail.com
+Questions? - I'm on twitter [@calebthewood](https://twitter.com/calebthewood) - or email: calebwood.cs@gmail.com
 
 Project Link: [https://github.com/calebthewood/personal-site](https://github.com/calebthewood/personal-site)
 
@@ -88,7 +88,7 @@ Project Link: [https://github.com/calebthewood/personal-site](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Forever indebted to these two :)
 
 * [Font Awesome](https://fontawesome.com)
 * [Rithm School](https://www.rithmschool.com/)
