@@ -11,7 +11,7 @@
 <br />
 <div align="center">
 
-  <h3 align="center">calebwood.dev v1.1</h3>
+  <h3 align="center">calebwood.dev v1.2</h3>
 
   <p align="center">
     Welcome to the Repo for my personal site.
@@ -22,8 +22,8 @@
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
-  
-  <img src="public/images/site-shot.png" alt="Logo" width="400" align="center">
+
+  <img src="https://s3.us-west-1.amazonaws.com/pix.ly/site-shot.png" alt="Logo" width="400" align="center">
 </div>
 
 
@@ -61,6 +61,7 @@ So far, just the basics! Sometimes less is more:
 * [CSS](https://www.w3.org/Style/CSS/)
 * [JavaScript](https://www.javascript.com/)
 * [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+* Images on [AWS S3](https://aws.amazon.com/pm/serv-s3/?trk=fecf68c9-3874-4ae2-a7ed-72b6d19c8034&sc_channel=ps&sc_campaign=acquisition&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Storage|S3|US|EN|Text&s_kwcid=AL!4422!3!488982706719!e!!g!!aws%20s3&ef_id=Cj0KCQjwzLCVBhD3ARIsAPKYTcSFJ05mTjKdCSoCs4OTzOuaSyXbGTkklK_CzdwR8fBKTaPgvazeUh0aAjdbEALw_wcB:G:s&s_kwcid=AL!4422!3!488982706719!e!!g!!aws%20s3)
 
 <!-- ROADMAP -->
 ## Roadmap
