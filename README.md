@@ -81,9 +81,10 @@ Roadmap to v2.0
 <!-- CONTACT -->
 ## Contact
 
-Questions? - I'm on twitter [@calebthewood](https://twitter.com/calebthewood) - or email: calebwood.cs@gmail.com
-
-Project Link: [https://github.com/calebthewood/personal-site](https://github.com/calebthewood/personal-site)
+Questions?
+- I post daily on twitter: [@calebthewood](https://twitter.com/calebthewood)
+- Personal Site: [calebwood.dev](https://www.calebwood.dev/)
+- email: calebwood.cs@gmail.com
 
 
 <!-- ACKNOWLEDGMENTS -->
