@@ -81,7 +81,7 @@ Roadmap to v2.0
 <!-- CONTACT -->
 ## Contact
 
-Questions?
+I'm Caleb, Web Developer and Fullstack Enginner. Questions?
 - I post daily on twitter: [@calebthewood](https://twitter.com/calebthewood)
 - Personal Site: [calebwood.dev](https://www.calebwood.dev/)
 - email: calebwood.cs@gmail.com
