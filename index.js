@@ -1,5 +1,13 @@
 "use strict";
 
+/*************************************************************** Progress Bar */
+let bar = document.querySelector("#progress");
+window.addEventListener("scroll", () => {
+  let max = document.body.scrollHeight - innerHeight;
+  bar.style.width = `${(pageYOffset / max) * 100}%`;
+});
+
+
 /***************************************************** Carousel Functionality */
 const myCarousel = document.querySelector('#myCarousel');
 const carousel = new bootstrap.Carousel(myCarousel, {
@@ -14,6 +22,10 @@ const prev = document.querySelector(".carousel-control-prev");
 
 prev.click(() => carousel.carousel("prev"));
 next.click(() => carousel.carousel("next"));
+
+
+
+
 
 /*
 TODO:
